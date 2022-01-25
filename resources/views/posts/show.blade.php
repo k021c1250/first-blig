@@ -13,6 +13,7 @@
     </head>
     <body>
         <h1>blog name</h1>
+        <p class="edit">[<a href="/posts/{{$post->id}}/edit">edit</a>]</p>
             <div class = 'post'>
                 <h2 class = 'title'>{{$post->title}}</h2>
                 <p class = 'body'>{{$post->body}}</p>
